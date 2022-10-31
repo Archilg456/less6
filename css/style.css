@@ -1,14 +1,44 @@
-
+.img-back{
+    display: inline-block;
+    position: relative ;
+}
 .img-city {
     display: inline-block;
     width: 1675px;
     height: 900px;
-    position: absolute;
+    position: absolute ;
 }
 .car {
     width: 350px;
     height:350px;
     margin-top: 580px;
-    position: relative;
+    position: absolute ;
     z-index: 5;
+    animation: carmove 9s infinite ;
+}
+.rain {
+    display: inline-block;
+    width: 1675px;
+    height: 900px;
+    position: relative ;
+    z-index: 8;
+    animation: raindown 9s infinite ;
+}
+@keyframes carmove {
+    from {left: 0}
+    to {left: 1300px}
+}
+@keyframes raindown {
+    0%      {top: 0px;}
+    5%      {top: 50px;}
+    10%     {top: 100px;}
+    15%     {top: 150px;}
+    25%     {top: 200px;}
+    30%     {top: 250px;}
+    40%     {top: 300px;}
+    50%     {top: 400px;}
+    60%     {top: 500px;}
+    75%     {top: 600px;}
+    95%     {top: 700px;}
+    100%    {top: 850px;} 
 }
