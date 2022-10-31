@@ -1,0 +1,14 @@
+
+.img-city {
+    display: inline-block;
+    width: 1675px;
+    height: 900px;
+    position: absolute;
+}
+.car {
+    width: 350px;
+    height:350px;
+    margin-top: 580px;
+    position: relative;
+    z-index: 5;
+}
