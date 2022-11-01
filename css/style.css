@@ -20,7 +20,7 @@
     display: inline-block;
     width: 1675px;
     height: 900px;
-    position: relative ;
+    position: absolute ;
     z-index: 8;
     animation: raindown 9s infinite ;
 }
